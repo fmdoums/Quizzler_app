@@ -40,9 +40,8 @@ class _QuizPageState extends State<QuizPage> {
       if (quizzBrain.isFinished()) {
         Alert(
           context: context,
-          type: AlertType.error,
-          title: "RFLUTTER ALERT",
-          desc: "End of game.",
+          title: "Finished",
+          desc: "You\'ve reached the end of the quiz.",
           buttons: [
             DialogButton(
               child: Text(
